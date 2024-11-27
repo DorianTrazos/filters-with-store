@@ -1,4 +1,13 @@
 import '../css/styles.css';
+import imageWaffle from '../assets/images/image-waffle.jpg';
+import imageBaklava from '../assets/images/image-baklava.jpg';
+import imageBrownie from '../assets/images/image-brownie.jpg';
+import imageCake from '../assets/images/image-cake.jpg';
+import imageMacaron from '../assets/images/image-macaron.jpg';
+import imageMeringue from '../assets/images/image-meringue.jpg';
+import imagePannaCotta from '../assets/images/image-panna-cotta.jpg';
+import imageTiramisu from '../assets/images/image-tiramisu.jpg';
+import imageCremeBrulee from '../assets/images/image-creme-brulee.jpg';
 
 const productsListElement = document.getElementById('products-list');
 const noProductsElement = document.getElementById('no-products');
@@ -8,55 +17,55 @@ const orderByElement = document.getElementById('order-by');
 const PRODUCTS = [
   {
     name: 'Waffle with Berries',
-    image: 'assets/images/image-waffle.jpg',
+    image: imageWaffle,
     price: 6.5,
     sugarless: true
   },
   {
     name: 'Vanilla Bean Crème Brûlée',
-    image: './assets/images/image-creme-brulee.jpg',
+    image: imageCremeBrulee,
     price: 7,
     sugarless: true
   },
   {
     name: 'Macaron Mix of Five',
-    image: './assets/images/image-macaron.jpg',
+    image: imageMacaron,
     price: 8,
     sugarless: false
   },
   {
     name: 'Classic Tiramisu',
-    image: './assets/images/image-tiramisu.jpg',
+    image: imageTiramisu,
     price: 5.5,
     sugarless: false
   },
   {
     name: 'Pistachio Baklava',
-    image: './assets/images/image-baklava.jpg',
+    image: imageBaklava,
     price: 4,
     sugarless: true
   },
   {
     name: 'Lemon Meringue Pie',
-    image: './assets/images/image-meringue.jpg',
+    image: imageMeringue,
     price: 5,
     sugarless: true
   },
   {
     name: 'Red Velvet Cake',
-    image: './assets/images/image-cake.jpg',
+    image: imageCake,
     price: 4.5,
     sugarless: false
   },
   {
     name: 'Salted Caramel Brownie',
-    image: './assets/images/image-brownie.jpg',
+    image: imageBrownie,
     price: 5.5,
     sugarless: false
   },
   {
     name: 'Vanilla Panna Cotta',
-    image: './assets/images/image-panna-cotta.jpg',
+    image: imagePannaCotta,
     price: 6.5,
     sugarless: true
   }
