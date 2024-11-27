@@ -8,7 +8,7 @@ const orderByElement = document.getElementById('order-by');
 const PRODUCTS = [
   {
     name: 'Waffle with Berries',
-    image: './assets/images/image-waffle.jpg',
+    image: 'assets/images/image-waffle.jpg',
     price: 6.5,
     sugarless: true
   },
