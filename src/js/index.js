@@ -1,13 +1,13 @@
-import '../css/styles.css';
-import imageWaffle from '../assets/images/image-waffle.jpg';
 import imageBaklava from '../assets/images/image-baklava.jpg';
 import imageBrownie from '../assets/images/image-brownie.jpg';
 import imageCake from '../assets/images/image-cake.jpg';
+import imageCremeBrulee from '../assets/images/image-creme-brulee.jpg';
 import imageMacaron from '../assets/images/image-macaron.jpg';
 import imageMeringue from '../assets/images/image-meringue.jpg';
 import imagePannaCotta from '../assets/images/image-panna-cotta.jpg';
 import imageTiramisu from '../assets/images/image-tiramisu.jpg';
-import imageCremeBrulee from '../assets/images/image-creme-brulee.jpg';
+import imageWaffle from '../assets/images/image-waffle.jpg';
+import '../css/styles.css';
 
 const productsListElement = document.getElementById('products-list');
 const noProductsElement = document.getElementById('no-products');
@@ -83,6 +83,7 @@ const printProducts = products => {
   } else {
     noProductsElement.classList.add('hide');
   }
+
   const fragment = document.createDocumentFragment();
   products.forEach(product => {
     const newProductContainer = document.createElement('div');
